@@ -1,4 +1,4 @@
-# ltx-shorts
+# ltx-shorts (This is not my historical documentary channel pipeline, which remains private)
 
 An automated pipeline that generates short-form videos about real, documented
 historical mysteries, rendered in a VHS / found-footage aesthetic, and runs the
