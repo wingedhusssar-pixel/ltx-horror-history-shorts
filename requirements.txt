@@ -1,0 +1,32 @@
+# Python 3.10, Windows, CUDA (RTX 4070 Laptop, 8GB).
+#
+# CRITICAL PIN: setuptools must stay < 82. setuptools 82 removed pkg_resources,
+# which breaks librosa, which breaks chatterbox-tts at import time.
+setuptools==81.0.0
+
+# --- Core ML / generation ---
+torch                 # install the CUDA build for your system from pytorch.org
+diffusers
+transformers
+accelerate
+safetensors
+huggingface-hub
+chatterbox-tts
+faster-whisper
+
+# --- Media / audio / video ---
+moviepy
+Pillow
+numpy
+scipy
+librosa
+soundfile
+
+# --- LLM + external APIs ---
+anthropic
+requests
+
+# --- YouTube upload ---
+google-auth
+google-auth-oauthlib
+google-api-python-client

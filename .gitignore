@@ -1,0 +1,45 @@
+# ---- Secrets ----
+.env
+*.env
+client_secret*.json
+token*.json
+*oauth*.json
+credentials*.json
+
+# ---- Generated output ----
+pipeline_output/
+*.mp4
+*.gif
+*_still.png
+*_audio.wav
+
+# ---- Local assets (not distributed) ----
+music/
+fonts/
+tape_outro.mp3
+*.ttf
+
+# ---- Run-state logs ----
+topic_history.txt
+music_history.txt
+
+# ---- Model / library caches ----
+*.safetensors
+*.bin
+*.ckpt
+.cache/
+huggingface/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+venv/
+venv2/
+.venv/
+*.egg-info/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
